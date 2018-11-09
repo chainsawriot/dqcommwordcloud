@@ -1,20 +1,3 @@
-## ### Sys req: sudo apt-get install libpoppler-cpp-dev
-
-## devtools::install_github("ropensci/fulltext")
-## require(fulltext)
-
-## res <- ft_search(query ='media deliberation', from ='crossref', limit = 1000, scopusopts = list(key = 'c3a3a9f542e6c835b69cea67e538dd2f'))
-
-## z <- ft_get(res$crossref$data$doi[1:100])
-
-## devtools::install_github('chartgerink/osfr')
-
-## require(osfr)
-
-## login()
-
-
-
 require(rvest)
 
 require(glue)
